@@ -29,7 +29,7 @@ from datasets import dataset_utils
 
 slim = tf.contrib.slim
 
-_FILE_PATTERN = 'HER2_5_%s_*.tfrecord'
+_FILE_PATTERN = 'HER2_paper_4_%s_*.tfrecord'
 
 SPLITS_TO_SIZES = {'train': 12551, 'validation': 2014}
 
